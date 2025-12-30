@@ -1,0 +1,11 @@
+.external-box {
+  background: linear-gradient(to right, #84fab0, #8fd3f4);
+  border-left: 6px solid #2196f3;
+  color: #004d40;
+}
+
+.combo {
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  border-left: 6px solid #e91e63;
+  color: #4a148c;
+}

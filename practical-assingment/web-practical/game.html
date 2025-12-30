@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            let secret_number=4;
+            let guess= parseInt( prompt("Guess the secret number between 1 and 10: ") );
+            if (guess > secret_number){
+                docuument.write("Your guess is higher");
+            }
+            else if (guess < secret_number){
+                document.write("Your guess is lower");
+            }
+            else if (guess==secret_number){
+                document.write("Yayyyyy!!!! Correct Guess");
+            }
+        </script>
+    </body>
+</html>

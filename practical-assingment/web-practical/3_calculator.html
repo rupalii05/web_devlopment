@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            document.write("Press 1: for addition <br>");
+            document.write("Press 2: for subtraction <br>");
+            document.write("Press 3: for multiplication <br>");
+            document.write("Press 4: for division <br>");
+
+            let choice= parseInt( prompt("Enter your choice(1-4): ") );
+            let a= parseFloat( prompt("Enter first number: ") );
+            let b= parseFloat( prompt("Enter second number: ") );
+
+            switch(choice){
+                case 1:
+                    document.write("Addition is: " + (a+b));
+                    break;
+                case 2:
+                    document.write("Subtraction is: " + (a-b));
+                    break;
+                case 3:
+                    document.write("Multiplication is: " + (a*b));
+                    break;
+                case 4:
+                    document.write("Division is: " + (a/b));
+                    break;
+                default:
+                    document.write("Invalid choice");
+            }
+        </script>
+    </body>
+</html>

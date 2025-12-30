@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>Sum of two numbers using function:</p>
+        <p id="demo"></p>
+        <script>
+            function sum(a,b) {
+                return a + b;
+            }
+            let a=parseInt(prompt("Enter first number:"));
+            let b=parseInt(prompt("Enter second number:"));
+            let res=sum(a,b);
+            document.getElementById("demo").innerHTML = "The sum of two number is: " + res;
+        </script>
+    </body>
+</html>

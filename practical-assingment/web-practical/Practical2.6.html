@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Styling Methods | Practical Assignment</title>
+  <link rel="stylesheet" href="style6.css">
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(120deg, #f0f4f8, #dff9fb);
+    }
+
+    header {
+      text-align: center;
+      background: linear-gradient(to right, #ff758c, #ff7eb3);
+      color: white;
+      padding: 25px 0;
+      border-bottom: 5px solid #f8bbd0;
+      letter-spacing: 1px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    h1 span {
+      color: #fffde7;
+    }
+
+    .section {
+      background: #ffffff;
+      margin: 30px auto;
+      width: 80%;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+      margin-top: 0;
+      text-align: center;
+      color: #333;
+      border-bottom: 3px solid #e1bee7;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #eee;
+      border-top: 5px solid #ff7eb3;
+    }
+  </style>
+</head>
+<body>
+
+  <div style="background: lightblue; text-align: center; padding: 15px; font-family: Arial; border-bottom: 2px solid navy;">
+    <h2 style="margin: 5px 0; color: darkblue;">Hi, I’m Rupali Pathak</h2>
+    <p style="margin: 5px 0; color: darkslategray;">This is my Practical Assignment</p>
+  </div>
+
+  <header>
+    <h1>🌟 CSS Styling <span>Demonstration</span></h1>
+    <p>— Inline, Internal & External CSS in one creative page —</p>
+  </header>
+
+  <!-- Inline CSS Example -->
+  <div class="section" style="background: #fff9c4; border-left: 6px solid #ffeb3b;">
+    <h2>Inline CSS Example</h2>
+    <p style="color:#795548; font-size:18px;">This box is styled <b>directly using Inline CSS</b> inside the HTML tag itself.</p>
+  </div>
+
+  <!-- Internal CSS Example -->
+  <div class="section">
+    <h2>Internal CSS Example</h2>
+    <p>This section uses <b>Internal CSS</b> defined within the &lt;style&gt; tag of this HTML file.</p>
+  </div>
+
+  <!-- External CSS Example -->
+  <div class="section external-box">
+    <h2>External CSS Example</h2>
+    <p>This section’s styling is imported from an <b>External CSS file</b> (style.css).</p>
+  </div>
+
+  <!-- Combination Example -->
+  <div class="section combo" style="font-size:18px;">
+    <h2>All CSS Methods Combined</h2>
+    <p>This box uses <b>External</b> (background), <b>Internal</b> (border & layout), and <b>Inline CSS</b> (font size).</p>
+  </div>
+
+  <footer>
+    ©️ 2025 Designed by <b>Rupali Pathak</b> | RSR Rungta College 💖
+  </footer>
+
+</body>
+</html>

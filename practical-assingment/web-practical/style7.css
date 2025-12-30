@@ -1,0 +1,13 @@
+/* External CSS Styling */
+.card {
+  border: 3px solid lightgray;
+}
+
+.card-content p {
+  color: darkslategray;
+  text-align: justify;
+}
+
+button:hover {
+  background-color: mediumvioletred;
+}

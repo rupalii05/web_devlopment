@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            let marks1= parseInt( prompt("Enter marks of subject 1: ") );
+            let marks2= parseInt( prompt("Enter marks of subject 2: ") );
+            let marks3= parseInt( prompt("Enter marks of subject 3: ") );   
+            let marks4= parseInt( prompt("Enter marks of subject 4: ") );
+            let marks5= parseInt( prompt("Enter marks of subject 5: ") );
+            let total= marks1 + marks2 + marks3 + marks4 + marks5;
+            let percentage= (total/500)*100;
+            if (marks1<33 || marks2<33 || marks3<33 || marks4<33 || marks5<33){
+                document.write("You are fail because you have less than 33 marks in one or more subjects.");
+            }
+            else{
+                document.write("You are pass<br>");
+            }
+            if (percentage>=90){
+                document.write("Grade A");
+            }
+            else if (percentage>=80){
+                document.write("Grade B");
+            }
+            else if (percentage>=70){
+                document.write("Grade C");
+            }
+            else if (percentage>=60){
+                document.write("Grade D");
+            }
+            else if (percentage>=50){
+                document.write("Grade E");
+            }
+            else{
+                document.write("Grade F");
+            }
+
+        </script>
+    </body>
+</html>
